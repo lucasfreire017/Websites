@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background: rgb(90, 88, 88);
+
+}
+
+/* Menu */
+.logo{
+    position: relative;
+    left: -600px;
+    
+}
+
+.menu_nav{
+    background: #302f2f;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
+}
+
+.menu{
+    position: relative;
+    left: 48%;
+    list-style: none;
+    float: left;
+}
+
+.menu li{
+    position: relative;
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+.menu li a:hover{
+    background: rgba(255, 68, 0, 0.651);
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.616);
+    box-shadow: 0 3px 10px 40 orangered;
+}
+/* Fim Menu */
+
+
+

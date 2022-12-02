@@ -1,0 +1,82 @@
+*{margin: 0; padding: 0;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background: #302f2f;
+}
+
+h1, h2, h3, p{
+    text-align: center;
+}
+
+h3{
+    padding: 10px;
+}
+/* Menu */
+.logo{
+    position: relative;
+    left: -600px;
+    
+}
+.menu_nav{
+    background: #302f2f;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
+}
+.menu{
+    position: relative;
+    left: 35%;
+    list-style: none;
+    float: left;
+    border: 1px solid #ed820e;
+    transition: .5s;
+}
+.menu li{
+    position: relative;
+    float: left;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.menu li a:hover{
+    background: rgb(255, 68, 0);
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.616);
+    box-shadow: 0 3px 10px 40 orangered;
+    transform: scale(1.1);
+}
+/* Fim Menu */
+
+.main_card{
+    background: rgb(212, 207, 207);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    height: auto;
+    padding: 30px;
+    
+}
+
+.conteudo{
+    padding: 10px;
+    
+}
+
+.conteudo img{
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.conteudo p{
+    float: right;
+    font-size: 20pt;
+    text-align: justify;
+    width: 500px;
+    padding: 13px;
+}
