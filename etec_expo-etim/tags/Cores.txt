@@ -1,0 +1,11 @@
+<head>	
+        <title>Venda de Notebooks</title>
+	<style>
+	        body{
+	        background-image: url("exe.jpg");	
+            background-color: rgb(35, 137, 195);
+            color: rgba(0,0,0,)
+	        }
+            p {text-align:justify;}   
+    </style>
+</head>

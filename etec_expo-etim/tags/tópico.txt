@@ -1,0 +1,22 @@
+nav#menu li{display: inline-block;}
+
+nav{font-family: "Century Gothic";
+            font-size: large;}
+
+        h1{text-align: center;
+           font-family: "Century Gothic";}
+
+        nav#tab1{
+            position: relative;
+            top: 44px;
+            left: 380px;}
+        nav#tab2{
+            position: relative;
+            top: -100px;
+            left: 680px;}
+        div#lista_1{
+           position: relative;
+           left: 50px;}
+        div#lista_2{
+            position: relative;
+            left: 50px;}

@@ -1,0 +1,56 @@
+<b>EXEMPLO</b>
+deixa em negrito
+
+<i>EXEMPLO</i>   <-->  <em>EXEMPLO</em> -----> semantica----> uma palavra ou termo em enfase (para o navegador)
+deixa em negrito <-->  deixa em negrito
+
+<u>EXEMPLO</u> ----> não é usada em html 5 ---> CSS
+deixa a palavra sublinhada (risco em baixo)
+
+ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+ m <s>...</s> -----> não é usada no html 5 ---> é usado <del>...</del>    m
+ m                                                                        m
+ m              deixa um risco no meio da palavra                         m
+ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+ 
+
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+ m <span style="text-decoration:                                          m
+ m ----> underline;(deixa texto sublinhado)                               m
+ m ----> overline; (uma linha acima do texto)                             m
+ m ----> line-through; (seria uma palavra riscada)                        m
+ m ----> none; (sem alteração)                                            m
+ mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+
+
+00000000000000000000000000000000000000000000000000000000000000
+0                                                            0
+0                  JUSTIFICAR O TEXTO                        0
+0                  >>>>>>>>>>>>>>>>>>                        0
+0                                                            0
+0         <p style="text-align: justify;"> ...</p>           0
+0                                                            0
+0                         ou                                 0
+0                                                            0
+0 <p style="text-align: justify; text-indent: 50px"> ...</p> 0
+0                                                            0
+00000000000000000000000000000000000000000000000000000000000000
+ou pode se colocar na area head que modifica tudo:
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+              <head>
+
+                     <style>
+      
+                                p{
+
+                                     text-align: justify;
+                                     text-indent: 50px;(OU OUTRO VALOR)
+                                  } 
+
+
+              </head>
+
+
+
+font-size= 464pt

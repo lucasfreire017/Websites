@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usúario de Usúario</title>
+    <link href="_css/cadastro.css" rel="stylesheet">
+</head>
+<body>
+<div id="cardLogin">
+    <!-- Formulário de Login -->
+    <form>
+        <legend>Criar uma nova conta</legend>
+        <img id="imgUser" src="_imagens/user.png">
+
+        <!-- NOME DE USÚARIO-->
+        <div class="divInputStyle" id="divNome">
+            <input class="inputStyle" id="cNome" maxlength="40" name="tNome" placeholder="NOME COMPLETO*" required
+                   size="25"
+                   type="text"/>
+            <img alt="icone" class="icon" src="_imagens/person.png"/>
+        </div>
+
+        <!-- E-MAIL DE USÚARIO-->
+        <div class="divInputStyle" id="divMail">
+            <input class="inputStyle" id="cMail" maxlength="40" name="tMail" placeholder="E-MAIL*" required size="25"
+                   type="email"/>
+            <img alt="icone" class="icon" src="_imagens/person.png"/>
+        </div>
+
+        <!-- NÚMERO DE USÚARIO-->
+        <div class="divInputStyle" id="divNum">
+            <input class="inputStyle" id="cNum" maxlength="40" name="tNum" placeholder="NÚMERO DE CELULAR*" required
+                   size="25"
+                   type="tel"/>
+            <img alt="icone" class="icon" src="_imagens/person.png"/>
+        </div>
+
+        <!-- SENHA-01 DE USÚARIO-->
+        <div class="divInputStyle" id="divPass01">
+            <input class="inputStyle" id="cSenha01" name="tSenha" placeholder="SENHA*" required size="25"
+                   type="password"/>
+            <img class="icon" src="_imagens/cadeado.png">
+        </div>
+
+        <!-- SENHA-02 DE USÚARIO-->
+        <div class="divInputStyle" id="divPass02">
+            <input class="inputStyle" id="cSenha02" name="tSenha" placeholder="REPITA A SENHA*" required size="25"
+                   type="password"/>
+            <img class="icon" src="_imagens/cadeado.png">
+        </div>
+
+        <!-- Botão de Login-->
+        <input id="cButton" name="tButton" src="_imagens/gradient.jpg" type="submit" value="CADASTRAR"/>
+
+    </form>
+</div>
+</body>
+</html>

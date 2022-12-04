@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br"
+<head>
+    <meta charset="UTF-8">
+    <title>expoetim13</title>
+    <style>
+       nav{display: inline-block;
+           font-family: "Century Gothic";
+           position: relative;
+            left: 30%;}
+
+       h1{text-align: center;
+           font-family: "Century Gothic";}
+
+       div#lista_1{
+           position: relative;
+           left: 50px;}
+       div#lista_2{
+           position: relative;
+           left: 50px;}
+
+       span.direita{
+           width: 0;
+           height: 0;
+           border: 30px solid transparent;
+           display: block;
+           position: absolute;
+           top: 700px;
+           left: 740px;}
+       span.direita{border-left-color:#606060;}
+
+       span.esquerda{
+           width: 0;
+           height: 0;
+           border: 30px solid transparent;
+           display: block;
+           position: absolute;
+           top: 700px;
+           left: 620px;}
+
+       span.esquerda{border-right-color: #606060}
+
+    </style>
+</head>
+<body>
+<h1>Nomes de variáveis válidos e inválidos.</h1>
+
+<nav>
+    <ul type="circle">
+        <h2 style="font-weight: normal;">Nomes Válidos:</h2>
+        <div id="lista_1">
+            <li>Nome;</li>
+            <li>Nome Aluno;</li>
+            <li>Fone1 x</li>
+        </div>
+    </ul>
+</nav>
+
+<nav>
+    <ul type="circle">
+        <h2 style="font-weight: normal">Nomes Inválidos:</h2>
+        <div id="lista_2">
+            <li>Nomes Usúarios;</li>
+            <li>1aluno;</li>
+            <li>Fone#$.</li>
+        </div>
+    </ul>
+</nav>
+
+<a href="expoetim14.html"><span class="direita"></span></a>
+<a href="expoetim12.html"><span class="esquerda"></span></a>
+</body>
+</html>

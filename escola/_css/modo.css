@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@font-face{
+    font-family: 'font';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+    background-color: #dddddd;
+    width:90%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
+	overflow-x: hidden;
+}
+
+img{
+    position: relative;
+    width: 200px;
+    left: 500px;
+    top: 17px;
+}
+
+
+h1{
+    position: relative;
+    font-family: 'font';
+    text-align: center;
+    top: -20px;
+    font-size: 29pt;
+}
+
+h1.nome{
+    position: relative;
+    font-family: 'font';
+    text-align: center;
+    top: 10px;
+    font-size: 29pt;
+}
+
+nav#menu ul{
+    position: relative;
+    left: 380px;
+    top: 0px;
+}
+
+nav#menu li{
+    display: inline-block;
+    margin: 2px;
+    padding: 10px;
+    background-color: #4d70af;
+    font-family: "Comic Sans MS";
+    font-size: 15pt;
+    border-radius: 10px 10px 10px 10px;
+}
+
+nav#novidades li{
+    text-align: justify;
+}
+
+nav#menu li:hover{
+    transition: 1s;
+    background-color: #00a6e7;
+}
+
+nav#menu a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: Arial, Sans-Serif;
+    font-size: 15pt;
+    text-align: justify;
+
+
+}
+
+li{
+    font-family: Arial, Sans-Serif;
+    font-size: 15pt;
+
+    }
+

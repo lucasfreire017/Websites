@@ -1,0 +1,28 @@
+<img src="LOCAL/LOCAL.png ou jpg" width="100 -> 900"/>
+
+coloque sempre a imagem no local onde está o arquivo html
+
+e nao coloque o caminho da imagem como C:xxxxx/xxxx/xxx/xxxxx
+
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+sempre é bom utilizar <figure></figure> IMAGEM QUE FAZ PARTE DE UM CONTEÚDO
+
+figcaption é para dar legenda
+
+como:
+
+<figure>
+
+   <img src="LOCAL/LOCAL.png ou jpg" width="100 -> 900"/>
+          
+	  <figcapition>
+		<h3> blablabla</h3>
+		<p> blablala</p>
+          </figcaption>
+
+</figure>
+
+
+
+<img src="Águia.gif" widht="20%" height="40%"/>
