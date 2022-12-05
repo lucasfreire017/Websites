@@ -1,0 +1,16 @@
+#menu{
+    font-size: 25pt;
+}
+#menu li{
+    padding: 3pt;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.bd-placeholder-img{
+    border-radius: 15px;
+}
+
+.card:hover{
+    scale: 1.03;
+    transition: 0.3s;
+}
