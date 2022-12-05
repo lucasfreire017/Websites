@@ -6,7 +6,7 @@
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.col:hover{
-    scale: 1.03;
+.img-fluid:hover{
+    scale: 1.1;
     transition: 0.3s;
 }

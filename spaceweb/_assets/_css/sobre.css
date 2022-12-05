@@ -1,0 +1,29 @@
+#menu{
+    font-size: 25pt;
+}
+#menu li{
+    padding: 3pt;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+svg{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    #felipe {
+      padding-top: 75px;
+    }
+  }
+@media only screen and (max-width: 1000px) {
+    #felipe {
+      padding-top: 45px;
+    }
+  }
+
+ svg:hover {
+    scale: 1.3;
+    transition: 0.3s;
+  }
